@@ -1,0 +1,33 @@
+<form bindsubmit="formSubmit"report-submit='{{true}}' bindreset="formReset" >
+<view>请确认本次提交的信息</view>
+<text>\n</text>
+<view>名称：{{mingcheng}}</view>
+<text>\n</text>
+<view>内容：{{neirong}}</view>
+<text>\n</text>
+<view>日期：{{riqi}}</view>
+<text>\n</text>
+<view>时间：{{shijian}}</view>
+<text>\n</text>
+<view>地点：{{didian}}</view>
+<text>\n</text>
+<view>人数：{{renshu}}</view>
+<text>\n</text>
+<view>负责人：{{fuzeren}}</view>
+<text>\n</text>
+<view>联系方式：{{lianxifangshi}}</view>
+<text>\n</text>
+<view>备注：{{beizhu}}</view>
+<text>\n</text>
+<view>是否使用电教设备：{{qita}}</view>
+<view class="section">
+<view class="section__title">指导意见</view>
+<input name="feedback" placeholder="（在此填写指导意见）"/></view>
+<view class="section">
+<view>\n</view>
+<view class="section__title">审核人</view>
+<input name="reviewer" placeholder="（在此填写审核人名称）"/>
+</view>
+<button class="button"  formType="submit" bindtap="queren" plain="true">通过该申请</button>
+<button class="button" bindtap="fouren"plain="true">不通过该申请</button>
+</form>

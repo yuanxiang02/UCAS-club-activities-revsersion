@@ -1,0 +1,52 @@
+<view class="plate">
+  <navigator url="/pages/scheduled/index"  hover-class="other-navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/image/lm_card.png"></image>
+       </view>
+       <text class="plate-info">
+        预约教室
+       </text>
+  </navigator>
+  <view hover-class="other-navigator-hover" class="plate-item" bindtap="enter">
+     <view class="plate-img">
+       <image src="/image/lm_search.png"></image>
+       </view>
+       <text class="plate-info">
+        审核页面
+       </text>
+  </view>
+  <navigator url="/pages/chaxun/index7"  hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/image/lm_date.png"></image>
+       </view>
+       <text class="plate-info">
+        结果查询
+       </text>
+  </navigator>
+  <navigator url="/pages/feedback/index2"  hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/image/lm_service.png"></image>
+       </view>
+       <text class="plate-info">
+        反馈
+       </text>
+  </navigator>
+  <navigator url="/pages/premission/index6"  hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/image/lm_count.png"></image>
+       </view>
+       <text class="plate-info">
+        云服务
+       </text>
+  </navigator>
+  <navigator url="/pages/addtion_tababr/index"  hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/image/lm_file.png"></image>
+       </view>
+       <text class="plate-info">
+        相关附件
+       </text>
+  </navigator>
+</view>
+<view class="plate">
+</view>

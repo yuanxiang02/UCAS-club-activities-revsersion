@@ -1,0 +1,13 @@
+ <text>\n</text>
+  <text>\n</text>
+   <text>\n</text>
+ <view class="success">
+<image src="/images/submit_success.png"></image>
+</view>
+  <text>\n</text>
+    <text>\n</text>
+<view>提交成功</view>
+<text>\n</text>
+    <text>\n</text>
+   <text>\n</text>
+    <button class="button" bindtap="back" plain="true">返回</button>

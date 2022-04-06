@@ -1,0 +1,45 @@
+               <text>\n </text>
+              <text>\n </text>
+              <text>\n </text>
+<view class = "page-body">
+       <text>\n </text>
+       <text>\n </text>
+       <text>\n </text>
+       <text>\n </text>
+       <text>\n </text>
+  <form catchsubmit="formSubmit" catchreset="formReset" report-submit="true">
+         <text>\n </text>
+                        <text>\n </text>
+     <text >若在问卷提交后的两天内未收到反馈信息</text>
+                        <text>\n </text>
+                        <text>\n </text>
+                        <text>\n </text>
+   <view class="page-section">
+          <text>\n </text>
+          <text>\n </text>
+          <text>\n </text>
+          <text>\n </text>
+          <text>\n </text>
+      <view class="page-section-title">请输入您的反馈 </view>
+                  <text>\n </text>
+                  <text>\n </text>
+         <view class="weui-cells weui-cells_after-title">
+              <view class="weui_cell weui-cell_input">
+                       <view class="weui-cell_ _bd">
+   <input class="weui-input"placeholder="(请在此输入您的反馈)"value="{{wyx}}"name="response_messages"/>
+   </view>
+      </view>
+              </view>
+                        </view>
+                         <text>\n </text>
+                        <text>\n </text>
+                <view >我们会尽快对您的反馈进行处理！</view>
+                        <text>\n </text>
+                        <text>\n </text>
+                        <text>\n </text>
+                        <text>\n </text>
+  <view class="button-group">
+  <button class="button" hover-class="none"formType="submit" plain="true"> 提交反馈</button>
+  </view>
+  </form>
+</view>

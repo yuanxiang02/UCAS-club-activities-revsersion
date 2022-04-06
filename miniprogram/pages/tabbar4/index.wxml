@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+      size="default"
+    ></button>
+    <view class="userinfo-nickname-wrapper">
+      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取个人资料</button>
+    </view>
+  </view>
+
+
+
+  <!-- 操作数据库 -->
+  <view class="uploader">
+    <navigator url="/pages/tabbar3/index6" open-type="navigate" class="uploader-text">
+      <text>社团凭证码输入</text>
+    </navigator>
+  </view>
+
+  <!-- 即时通信 -->
+  <view class="uploader">
+    <navigator url="/pages/tabbar3/index6" open-type="navigate" class="uploader-text">
+      <text>权限/申请查询</text>
+    </navigator>
+  </view>
+
+  <!-- 新建云函数 -->
+  <view class="uploader">
+    <navigator url="/pages/tabbar3/index6" open-type="navigate" class="uploader-text">
+      <text>快速管理</text>
+    </navigator>
+  </view>
+  <!-- 云调用 -->
+  <view class="uploader">
+    <navigator url="/pages/tabbar3/index6" open-type="navigate" class="uploader-text">
+      <text>个性设置</text>
+    </navigator>
+  </view>
+</view>

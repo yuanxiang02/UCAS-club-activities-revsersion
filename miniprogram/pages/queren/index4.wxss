@@ -1,0 +1,16 @@
+.tr {
+ display: table-column;
+ height: 2rem;
+ align-items: center;
+}
+.td {
+ text-align: center;
+}
+.th {
+ display: column;
+ align-items: center;
+}
+.table{
+  flex-direction: column;
+   justify-content: center;
+}

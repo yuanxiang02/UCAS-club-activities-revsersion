@@ -1,0 +1,16 @@
+
+<loading hidden="{{lodingHidden}}">
+加载中
+</loading>
+<block wx:for="{{task}}"wx:key="this">
+<view class="tr bg-g">
+<view class="td_2"><view class="text_1">{{item.mingcheng}}</view></view>
+<view class="td_2"><view class="text">{{item.type}}</view></view>
+<view class="td_1"><view class="text_2">{{item.size}}</view></view>
+<view class="td_1">
+<button class="button2" bindtap="detail"plain="true" data-id="{{item.fileid}}"style="width:30px"style="height:20px">下载并查看</button>
+</view>
+</view>
+</block>
+
+

@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/tabbar1/index1",
+    "pages/scheduled/index",
+    "pages/tabbar2/index10",
+    "pages/feedback/index2",
+    "pages/submit_success/index3",
+    "pages/shenhe/index5",
+    "pages/queren/index4",
+    "pages/chaxun/index7",
+    "pages/chaxun_step2/index9",
+    "pages/addtion_tababr/index",
+    "pages/tabbar4/index",
+    "pages/premission/index6",
+    "pages/tabbar3/index6",
+    "pages/submit_success_to/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "社团中心",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#28f3e9",
+    "list": [
+      {
+        "pagePath": "pages/tabbar1/index1",
+        "text": "服务",
+        "iconPath": "/images/服务.png",
+        "selectedIconPath": "/images/服务_1.png"
+      },
+      {
+        "pagePath": "pages/tabbar2/index10",
+        "text": "公众号",
+        "iconPath": "/images/公众号.png",
+        "selectedIconPath": "/images/公众号_1.png"
+      },
+      {
+        "pagePath": "pages/tabbar4/index",
+        "text": "我的",
+        "iconPath": "/images/人员.png",
+        "selectedIconPath": "/images/人员_1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

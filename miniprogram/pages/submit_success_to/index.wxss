@@ -1,0 +1,19 @@
+.button{
+  width: 400rpx;
+  height: 100rpx;
+  position: buttom;
+  }
+  page{
+  display:column;
+  }
+  .success{
+     display:flex;    
+    justify-content: center;   
+  }
+  .success image{
+    width: 400rpx;
+    height: 400rpx;
+  }
+  .success font{
+    font-size: 600rpx;
+  }

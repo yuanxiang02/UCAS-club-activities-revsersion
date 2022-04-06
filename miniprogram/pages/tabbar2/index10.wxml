@@ -1,0 +1,3 @@
+<view class="working" bindtap="back">
+<image src="/image/working.jpg"></image>
+</view>

@@ -1,0 +1,24 @@
+<view>审核细明</view>
+<text>\n</text>
+<view>名称：{{mingcheng}}</view>
+<text>\n</text>
+<view>内容：{{neirong}}</view>
+<text>\n</text>
+<view>时间：{{shijian}}</view>
+<text>\n</text>
+<view>地点：{{didian}}</view>
+<text>\n</text>
+<view>人数：{{renshu}}</view>
+<text>\n</text>
+<view>负责人:{{fuzeren}}</view>
+<text>\n</text>
+<view>备注：{{beizhu}}</view>
+<text>\n</text>
+<view>审核人：{{reviewer}}</view>
+<text>\n</text>
+<view>审核意见:{{feedback}}</view>
+<text>\n</text>
+<view class="btn-area">
+<button class="button"  bindtap="back" plain="true"> 返回</button>
+</view>
+

@@ -1,0 +1,72 @@
+<form bindsubmit="formSubmit" bindreset="formReset" >
+<view class="section">
+<view class="section__title">1.申办社团 </view>
+<input name="mingcheng" placeholder=" （社团的名称）" value="{{wyx}}"/>
+</view>
+<text>\n</text>
+<view class="section">
+  <picker name='riqi' mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+    <view class="picker">
+      2.活动日期：{{multiArray[0][multiIndex[0]]}}  {{multiArray[1][multiIndex[1]]}}  {{multiArray[2][multiIndex[2]]}}
+    </view>
+  </picker>
+</view>
+<text>\n</text>
+<view class="picker_group">  
+      <picker name='shijian1' mode="time" value="{{date}}"  end="{{date2}}" bindchange="bindDateChange">  
+        <view class="picker">  
+        3.活动时间： {{date}}  
+        </view>
+      </picker>  
+      至    
+      <picker name ='shijian2' mode="time" value="{{date2}}" start="{{date}}" end="2050-01-01" bindchange="bindDateChange2">  
+        <view class="picker">  
+          {{date2}}  
+        </view>
+      </picker>        
+    </view>
+<text>\n</text>
+<view class="section">
+<view class="section__title">3.活动申请地点</view>
+<input name="didian" placeholder="（格式：教学楼xxx）" value="{{wyx}}"/>
+</view>
+<text>\n</text>
+<view class="section">
+<view class="section__title">4.活动内容</view>
+<input name="neirong" placeholder="（活动/会议标题）"value="{{wyx}}"/>
+</view>
+<text>\n</text>
+<view class="section">
+<view class="section__title">5.活动负责人</view>
+<input name="fuzeren" placeholder="（负责人姓名）"value="{{wyx}}" />
+</view>
+<text>\n</text>
+<view class="section">
+<view class="section__title">6.负责人联系方式</view>
+<input name="lianxifangshi" placeholder="（负责人电话号码）"value="{{wyx}}" />
+</view>
+<text>\n</text>
+<view class="section">
+<view class="section__title">7.规模人数</view>
+<input name="renshu" placeholder="（大致的人数）" value="{{wyx}}"/>
+</view>
+<text>\n</text>
+<view class="section">
+<view class="section__title">8.是否使用电教设备</view>
+<radio-group name="qita">
+          <label><radio value="是" color="#0066FF"/>是</label>
+          <label><radio value="否" color="#0066FF"/>否</label>
+        </radio-group>
+</view>
+<text>\n</text>
+<view class="section">
+<view class="section__title">9.备注</view>
+<input name="beizhu" placeholder="(若无其他设备需求，填“无”）" value="{{wyx}}"/>
+</view>
+<text>\n</text>
+<text>\n</text>
+<view class="btn-area">
+<button class="button"hover-class="none"formType="submit"plain="true"bindtap="quanxian"> 提交申请</button>
+<button class="button" hover-class="none"bindtap="formReset" formType="reset" plain="true" >撤销</button>
+</view>
+</form>

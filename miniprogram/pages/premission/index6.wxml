@@ -1,0 +1,8 @@
+<text>\n</text>
+<view>点此拉取审核权限</view>
+<text>\n</text>
+<button class="button" bindtap="shenhe"plain="true">审核权限</button>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>

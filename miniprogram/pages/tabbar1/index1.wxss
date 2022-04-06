@@ -1,0 +1,34 @@
+.page{
+  background: #fff;
+}
+view{
+  display:block;
+  justify-content:flex-start;
+  align-items: stretch;
+  }
+.plate{
+  height:240rpx;
+  background: #fff;
+}
+.plate-item{
+  display: flex;
+  float:left;
+  position: relative;
+  width: 188rpx;
+  height:188rpx;
+  margin-top:38rpx; 
+  margin-left:60rpx;
+}
+.plate-img image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.plate-info{
+  position: absolute;
+  height:40rpx;
+  font-size: 30rpx;
+  font-family: '微软雅黑';
+  bottom: 60rpx;
+  left:10rpx;
+  font-weight:550;
+}

@@ -1,0 +1,41 @@
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+ }
+ .td_1 {
+  width:20%;
+  justify-content: center;
+  text-align: center;
+ }
+
+ .td_2 {
+  width:30%;
+  justify-content: center;
+  text-align: center;
+ }
+
+ .bg-g{
+  background: #E6F3F9;
+ }
+.text{
+  font-size: 25rpx; 
+  }
+.text_1{
+    font-size: 30rpx; 
+    }
+.text_2{
+    font-size: 35rpx; 
+   }
+   .button1{
+    background: rgba(7, 250, 169, 0.247) ;
+    border-radius: 100rpx;
+    font-size: 40rpx;
+    line-height: 52rpx;
+    height: 90rpx;
+    width: 320rpx;
+    color: rgba(7, 250, 169, 0.247);
+    font-size: 35rpx; 
+    }
